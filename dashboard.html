@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rental Motor Keren ardis</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <style>
+        .about-content {
+            text-align: justify;
+        }
+        .admin-form {
+            background-color: #f4f4f4;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .admin-form table, .motor-table, .rental-table, .notification-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .admin-form th, .admin-form td, .motor-table th, .motor-table td, .rental-table th, .rental-table td, .notification-table th, .notification-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        .admin-form th, .motor-table th, .rental-table th, .notification-table th {
+            background-color: #f2f2f2;
+        }
+        .rental-form {
+            margin-top: 20px;
+        }
+        .rental-form h3, .notification h3 {
+            color: #2b2626;
+        }
+        .rental-form table {
+            margin-bottom: 20px;
+        }
+        .rental-form input[type="text"],
+        .rental-form input[type="number"],
+        .rental-form select {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-top: 5px;
+            box-sizing: border-box;
+        }
+        .rental-form input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .rental-form input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        .notification {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="logo"><img alt="" src="https://i.postimg.cc/WzkCM20g/logo1.png"></li>
+            <li>
+                <a href="#home"><i class="fa fa-home"></i>   home</a>
+            </li>
+            <li>
+                <a href="#about"><i class="fa fa-book"></i>   about</a>
+            </li>
+            <li>
+                <a href="#admin"><i class="fa fa-users"></i>   admin</a>
+            </li>
+            <li>
+                <a href="#jenis-motor"><i class="fa fa-picture-o"></i>   jenis Motor</a>
+            </li>
+            <li>
+                <a href="#penyewaan"><i class="fa fa-phone"></i>   penyewaan</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="wrapper">
+        <div class="section" id="home">
+            <div class="box-area">
+                <h2 style="color: #2b2626">Welcome to - Rental Motor Keren Sam Ardissss</h2>
+            </div>
+        </div>
+        <div class="section" id="about">
+            <div class="box-area">
+                <h2 style="color: #2b2626">About Us</h2>
+                <div class="about-content">
+                    <p>Rental Motor Keren ardis adalah penyedia layanan persewaan sepeda motor yang bertujuan untuk menyediakan kendaraan berkualitas tinggi dengan harga terjangkau kepada pelanggan. Kami berkomitmen untuk memberikan pengalaman menyenangkan dan nyaman dalam perjalanan Anda.</p>
+                    <p>Dengan berbagai pilihan motor yang kami sediakan, mulai dari yang ekonomis hingga yang mewah, kami siap memenuhi kebutuhan perjalanan Anda. Tim kami terdiri dari profesional yang berpengalaman dalam industri ini, siap memberikan layanan terbaik kepada setiap pelanggan.</p>
+                    <p>Kami percaya bahwa mobilitas adalah kunci untuk menjelajahi dunia, dan kami berdedikasi untuk memastikan Anda memiliki kendaraan yang tepat untuk setiap perjalanan Anda. Hubungi kami hari ini untuk informasi lebih lanjut atau untuk memesan sepeda motor Anda!</p>
+                </div>
+            </div>
+        </div>
+        <div class="section" id="admin">
+            <div class="box-area">
+                <h2 style="color: #2b2626">Admin Section</h2>
+                <div class="admin-form">
+                    <h3>Informasi Admin</h3>
+                    <table>
+                        <tr>
+                            <th>Nama</th>
+                            <th>ID Admin</th>
+                            <th>No Telepon</th>
+                            <th>Email</th>
+                        </tr>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>ADM12345</td>
+                            <td>+1234567890</td>
+                            <td>admin@example.com</td>
+                        </tr>
+                        <tr>
+                            <td>Jane Smith</td>
+                            <td>ADM67890</td>
+                            <td>+0987654321</td>
+                            <td>jane@example.com</td>
+                        </tr>
+                        <tr>
+                            <td>Michael Johnson</td>
+                            <td>ADM24680</td>
+                            <td>+1357924680</td>
+                            <td>michael@example.com</td>
+                        </tr>
+                        <tr>
+                            <td>Alice Brown</td>
+                            <td>ADM13579</td>
+                            <td>+2468013579</td>
+                            <td>alice@example.com</td>
+                        </tr>
+                        <tr>
+                            <td>David Lee</td>
+                            <td>ADM02468</td>
+                            <td>+8024680135</td>
+                            <td>david@example.com</td>
+                        </tr>
+                    </table>
+                </div>
+                <p>Jika terdapat kendala pada saat proses penyewaan, silahkan hubungi admin diatas.</p>
+            </div>
+        </div>
+        <div class="section" id="jenis-motor">
+            <div class="box-area">
+                <h2 style="color: #2b2626">Jenis Motor</h2>
+                <div class="motor-table">
+                    <table>
+                        <tr>
+                            <th>Nama Motor</th>
+                            <th>Deskripsi</th>
+                        </tr>
+                        <tr>
+                            <td>Honda Scoopy</td>
+                            <td>Scoopy adalah skuter matik yang populer dengan desain klasik yang elegan. Dilengkapi dengan mesin yang efisien dan fitur-fitur modern.</td>
+                        </tr>
+                        <tr>
+                            <td>Yamaha NMAX</td>
+                            <td>NMAX adalah skuter matik premium dengan desain sporty dan performa yang tangguh. Dilengkapi dengan teknologi canggih dan kenyamanan tinggi.</td>
+                        </tr>
+                        <tr>
+                            <td>Suzuki Satria FU</td>
+                            <td>Satria FU adalah motor sport berkubikasi kecil yang memiliki performa tinggi dan desain agresif. Cocok untuk penggemar kecepatan.</td>
+                        </tr>
+                        <tr>
+                            <td>Kawasaki Ninja 250</td>
+                            <td>Ninja 250 adalah motor sport dengan mesin bertenaga dan handling yang lincah. Dirancang untuk pengendara yang menginginkan performa tinggi.</td>
+                        </tr>
+                        <tr>
+                            <td>Vespa LX</td>
+                            <td>Vespa LX adalah skuter klasik yang ikonik dengan desain elegan dan kualitas premium. Cocok untuk penggunaan sehari-hari dengan gaya.</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="section" id="penyewaan">
+            <div class="box-area">
+                <h2 style="color: #2b2626">Penyewaan</h2>
+                <div class="rental-form">
+                    <h3>Daftar Motor dan Harga Sewa</h3>
+                    <table class="rental-table">
+                        <tr>
+                            <th>Nama Motor</th>
+                            <th>Harga Sewa per Hari</th>
+                        </tr>
+                        <tr>
+                            <td>Honda Scoopy</td>
+                            <td>$10</td>
+                        </tr>
+                        <tr>
+                            <td>Yamaha NMAX</td>
+                            <td>$15</td>
+                        </tr>
+                        <tr>
+                            <td>Suzuki Satria FU</td>
+                            <td>$12</td>
+                        </tr>
+                        <tr>
+                            <td>Kawasaki Ninja 250</td>
+                            <td>$20</td>
+                        </tr>
+                        <tr>
+                            <td>Vespa LX</td>
+                            <td>$18</td>
+                        </tr>
+                    </table>
+                    <h3>Pemesanan Motor</h3>
+                    <form id="rental-form" action="proses_penyewaan.php" method="POST">
+                        <table>
+                            <tr>
+                                <th>Nama Pemesan</th>
+                                <td><input type="text" name="nama_pemesan" required></td>
+                            </tr>
+                            <tr>
+                                <th>Jenis Motor</th>
+                                <td>
+                                    <select name="jenis_motor" required>
+                                        <option value="Honda Scoopy">Honda Scoopy</option>
+                                        <option value="Yamaha NMAX">Yamaha NMAX</option>
+                                        <option value="Suzuki Satria FU">Suzuki Satria FU</option>
+                                        <option value="Kawasaki Ninja 250">Kawasaki Ninja 250</option>
+                                        <option value="Vespa LX">Vespa LX</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Jumlah Hari</th>
+                                <td><input type="number" name="jumlah_hari" min="1" required></td>
+                            </tr>
+                        </table>
+                        <input type="submit" value="Sewa Motor">
+                    </form>
+                </div>
+            </div>
+            <div class="notification">
+                <h3>Notifikasi Penyewaan</h3>
+                <table class="notification-table" id="notification-table">
+                    <!-- Table for notification will be added dynamically using JavaScript -->
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById("rental-form").addEventListener("submit", function(event) {
+            event.preventDefault(); // Prevent default form submission
+
+            // Get form values
+            var namaPemesan = document.getElementsByName("nama_pemesan")[0].value;
+            var jenisMotor = document.getElementsByName("jenis_motor")[0].value;
+            var jumlahHari = document.getElementsByName("jumlah_hari")[0].value;
+
+            // Create table row for notification
+            var table = document.getElementById("notification-table");
+            var newRow = table.insertRow(-1);
+            var cell1 = newRow.insertCell(0);
+            var cell2 = newRow.insertCell(1);
+            var cell3 = newRow.insertCell(2);
+            cell1.innerHTML = namaPemesan;
+            cell2.innerHTML = jenisMotor;
+            cell3.innerHTML = jumlahHari + " hari";
+        });
+    </script>
+</body>
+</html>
